@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #06aa48;
+    background-color: #177d49;
 }
 
 header > h1 {
@@ -20,8 +20,20 @@ header > h1 {
     color: white;
 }
 
-menu {
+span#burguer {
+    background-color: #02421c;
+    color: white;
     display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+span#burguer:hover {
+    background-color:gray; 
+}
+
+menu {
+    display: none;
 }
 
 menu > ul {
@@ -32,7 +44,7 @@ menu > ul > li > a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    background-color: #06aa48;
+    background-color: #177d49;
     text-align: center;
     color: white;
     border-top: 2px solid gray;
